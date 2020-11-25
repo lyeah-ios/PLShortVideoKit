@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target	= "8.0"
  
-  s.dependency 'Qiniu', '7.4.4'
+  s.dependency 'Qiniu', '8.0.5'
 
   s.subspec "ex-libMuseProcessor" do |ss1|
     ss1.vendored_framework		= "Pod/Library/Profession/PLShortVideoKit.framework"
