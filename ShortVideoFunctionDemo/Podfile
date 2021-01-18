@@ -1,11 +1,13 @@
 platform :ios, '8.0'
 inhibit_all_warnings!
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'PLShortVideoKitDemo' do
    pod "PLShortVideoKit", :path => "../"
-   pod 'Qiniu', '7.4.4'
-   pod 'Fabric', '1.6.11'
-   pod 'Crashlytics', '3.8.4'
+   pod 'Qiniu', '8.1.1'
+   #pod 'Fabric', '1.6.11'
+   #pod 'Crashlytics', '3.8.4'
    pod 'Masonry', '1.0.2'
    pod 'FLAnimatedImage', '1.0.12'
 end
