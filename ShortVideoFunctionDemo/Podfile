@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'PLShortVideoKitDemo' do
    pod "PLShortVideoKit", :path => "../"
-   pod 'Qiniu', '8.1.1'
+   pod 'Qiniu', '~> 8.2.0'
    #pod 'Fabric', '1.6.11'
    #pod 'Crashlytics', '3.8.4'
    pod 'Masonry', '1.0.2'
